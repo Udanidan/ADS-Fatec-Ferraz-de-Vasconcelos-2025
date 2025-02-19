@@ -41,6 +41,7 @@ section#capa{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 90px;
     background-image: linear-gradient(to bottom, rgba(255, 212, 159, 0.842) 90%, rgba(255, 244, 230, 0.721))
 }
@@ -60,9 +61,12 @@ section#segunda{
     padding-bottom: 20px;
 }
 section#alunos{
-    max-width: 1184px;
+    max-width: 1175px;
     min-width: min-content;
     margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 article.amostra{
     background-color: white;
@@ -70,8 +74,7 @@ article.amostra{
     height: 500px;
     border: 1px ridge black;
     border-radius: 5px;
-    margin: 20px;
-    display: inline-block;
+    margin: auto;
 }
 
 img.alunos{
