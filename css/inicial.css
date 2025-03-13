@@ -63,7 +63,7 @@ section#segunda{
 section#alunos{
     max-width: 1175px;
     min-width: min-content;
-    margin: 0px auto;
+    margin: 40px auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -74,7 +74,10 @@ article.amostra{
     height: 500px;
     border: 1px ridge black;
     border-radius: 5px;
-    margin: auto;
+    margin: 20px auto;
+}
+article.amostra:hover{
+    box-shadow: 0px 0px 10px rgb(50, 0, 0);
 }
 
 img.alunos{
@@ -92,6 +95,9 @@ button.botao{
     background-color: rgb(201, 0, 0);
     color: white;
     font-size: 22px;
+    border: 1px solid rgb(114, 0, 0);
+    border-right: 2px solid rgb(114, 0, 0);
+    border-bottom: 2px solid rgb(114, 0, 0);
     border-radius: 10px;
     margin: 20px 35px;
     cursor: pointer;
