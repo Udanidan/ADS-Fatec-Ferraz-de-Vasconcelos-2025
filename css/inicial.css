@@ -68,6 +68,10 @@ section#alunos{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+div.organizacao{
+    width: 310px;
+}
 article.amostra{
     background-color: white;
     width: 350px;
@@ -75,6 +79,9 @@ article.amostra{
     border: 1px ridge black;
     border-radius: 5px;
     margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 article.amostra:hover{
     box-shadow: 0px 0px 10px rgb(50, 0, 0);
@@ -88,6 +95,7 @@ img.alunos{
 p.paragrafos{
     margin: 0px 20px;
     font-size: 20px;
+    width: 310px;
 }
 button.botao{
     width: 280px;
